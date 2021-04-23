@@ -9,3 +9,13 @@ https://colab.research.google.com/drive/1_wDbvZdWkFPrJluHmb3_0MWDfY5G8Lz9?authus
 
 Deployment:
 https://stackabuse.com/deploying-a-flask-application-to-heroku/
+
+Deploying this project with a model to Heroku does not work:
+-----> Compressing...
+ !     Compiled slug size: 572.9M is too large (max is 500M).
+ !     See: http://devcenter.heroku.com/articles/slug-size
+ !     Push failed
+ 
+Fine-tuned model is too large to upload to Git
+I could not get Git LFS to work.
+Could try using DVC with a heroku and dvc packpack but I don't think that will change that it's too large to deploy with Heroku
