@@ -7,6 +7,8 @@
 # ($ pip3 install flask python-dotenv)
 # ---------------------------------------------
 from flask import Flask
+# for google colab
+from flask_ngrok import run_with_ngrok
 # import our generator
 from .routes import generator
 # define create app function to create out app
