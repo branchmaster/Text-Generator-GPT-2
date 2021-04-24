@@ -19,3 +19,6 @@ Deploying this project with a model to Heroku does not work:
 Fine-tuned model is too large to upload to Git
 I could not get Git LFS to work.
 Could try using DVC with a heroku and dvc packpack but I don't think that will change that it's too large to deploy with Heroku
+
+Also using for google colab:
+- removed: typing-extensions==3.7.4.3 from requirements text
