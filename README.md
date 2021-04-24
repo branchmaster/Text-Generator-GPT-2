@@ -21,4 +21,7 @@ I could not get Git LFS to work.
 Could try using DVC with a heroku and dvc packpack but I don't think that will change that it's too large to deploy with Heroku
 
 Also using for google colab:
-- removed: typing-extensions==3.7.4.3 from requirements text
+- removed from requirements text:
+ - google-auth==1.29.0
+ - google-auth-oauthlib==0.4.4
+ - google-pasta==0.2.0
