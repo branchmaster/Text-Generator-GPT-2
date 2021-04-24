@@ -10,13 +10,13 @@ from flask import Flask
 # import our generator
 from .routes import generator
 # define create app function to create out app
-def create_app(config_file='settings.py'):
-        # name of file running
-        app = Flask(__name__, static_url_path="/tmp", static_folder="tmp")
+# def create_app(config_file='settings.py'):
+# name of file running
+app = Flask(__name__, static_url_path="/tmp", static_folder="tmp")
 
-        app.config.from_pyfile(config_file)
+#        app.config.from_pyfile(config_file)
 
         # Register Blueprint - In routes we'll configure a blueprint which will make setup easier
-        app.register_blueprint(generator)
+app.register_blueprint(generator)
         # return the app we have configured
-        return app
+#        return app
