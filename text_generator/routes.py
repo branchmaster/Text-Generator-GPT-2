@@ -1,5 +1,5 @@
-# import modules from flask
-from flask import Blueprint, render_template, request, redirect
+# import modules from flask (jsonify is for google colab func)
+from flask import Blueprint, render_template, request, redirect, jsonify
 # import object instantiated from class in generator
 from .generator import ai
 
