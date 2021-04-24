@@ -21,9 +21,6 @@ future==0.18.2
 gast==0.4.0
 gitdb==4.0.5
 GitPython==3.1.14
-google-auth==1.29.0
-google-auth-oauthlib==0.4.4
-google-pasta==0.2.0
 gradient-sdk==0.0.4
 gradient-statsd==1.0.1
 grpcio==1.34.1
@@ -86,6 +83,7 @@ terminaltables==3.1.0
 toml==0.10.2
 toposort==1.5
 tqdm==4.31.1
+typing-extensions==3.7.4.3
 urllib3==1.24.3
 Werkzeug==1.0.1
 wrapt==1.12.1
